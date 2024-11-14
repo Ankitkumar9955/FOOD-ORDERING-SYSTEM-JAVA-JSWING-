@@ -20,11 +20,6 @@ public class FoodOrderingSystem extends JFrame {
     private static final Color LIGHT_PURPLE = new Color(212, 190, 228);
     private static final Color WHITE = new Color(255, 255, 255);
 
-    // Database connection details
-    private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/FoodOrderDatabase";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Ankit123";
-
     private static class MenuItem {
 
         String name;
